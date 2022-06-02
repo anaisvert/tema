@@ -1,0 +1,25 @@
+
+/* a:target {
+    color: aquamarine;
+      } */
+a{
+    color: #19a635;
+
+}
+[target]{
+    color: red;
+}
+#second-div>p:nth-child(odd){
+    color: red;
+}
+#second-div>p:nth-child(even){
+    color: blue;
+}
+#first-div>p::after{
+    content: " NEW";
+    color: yellow;
+}
+p:nth-child(8):hover{
+    font-style: italic;
+
+}
